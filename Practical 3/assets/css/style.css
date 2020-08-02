@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    background-color: rgb(154, 247, 247);
+}
+
+#top{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+}
+#top:hover{
+    background-image: radial-gradient(rgb(81, 28, 228),blueviolet);
+}
+#right{
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: blueviolet;
+}
+#right:hover{
+    background-image: radial-gradient(rgb(81, 28, 228),blueviolet);
+}
+#left{
+    width: 50px;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: blueviolet;
+}
+#left:hover{
+    background-image: radial-gradient(rgb(81, 28, 228),blueviolet);
+}
+#bottom{
+    width: 50px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: blueviolet;
+}
+#bottom:hover{
+    background-image: radial-gradient(rgb(81, 28, 228),blueviolet);
+}
+
+#t1{
+    width: 400px;
+    height: 40px;
+    top: 0;
+    left: 490px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: blueviolet;
+    animation: t1 10s ease-in-out;
+}
+#t1:hover{
+    color: black;
+    background-image: radial-gradient(rgb(47, 11, 146),blueviolet);
+}
+@keyframes t1{
+    from {left: 0;}
+    to {right: 0;}
+}
+#t2{
+    width: 400px;
+    height: 40px;
+    bottom: 0;
+    right: 470px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: blueviolet;
+    animation: t2 10s ease-in-out;
+}
+#t2:hover{
+    color: black;
+    background-image: radial-gradient(rgb(47, 11, 146),blueviolet);
+}
+@keyframes t2{
+    from {right: 0;}
+   
+}
+#l1{
+    width: 50px;
+    height: 250px;
+    left: 0;
+    top: 200px;
+    position: absolute;
+    background-color: blueviolet;
+    animation: t3 10s ease-in-out;
+}
+#l1:hover{
+    background-image: radial-gradient(rgb(47, 11, 146),blueviolet);
+}
+@keyframes t3{
+    from {top: 0;}
+    
+}
+#l2{
+    width: 50px;
+    height: 250px;
+    right: 0;
+    bottom: 200px;
+    position: absolute;
+    background-color: blueviolet;
+    animation: t4 10s ease-in-out;
+}
+#l2:hover{
+    background-image: radial-gradient(rgb(47, 11, 146),blueviolet);
+}
+@keyframes t4{
+    from {bottom: 0;}
+   
+}
+#c7{
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    top: 130px;
+    left: 500px;
+    position: absolute;
+    background-color: red;
+}
+#c7:hover{
+    background-color: violet;
+}
+#c6{
+    width: 350px;
+    height: 350px;
+    border-radius: 350px;
+    top: 160px;
+    left: 525px;
+    position: absolute;
+    background-color: rgb(255, 86, 24);
+}
+#c6:hover{
+    background-color: indigo;
+}
+#c5{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    top: 185px;
+    left: 550px;
+    position: absolute;
+    background-color: yellow;
+}
+#c5:hover{
+    background-color: blue;
+}
+#c4{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    top: 210px;
+    left: 575px;
+    position: absolute;
+    background-color: green;
+}
+#c4:hover{
+    background-color: green;
+}
+#c3{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    top: 235px;
+    left: 600px;
+    position: absolute;
+    background-color: blue;
+}
+#c3:hover{
+    background-color: yellow;
+}
+#c2{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    top: 260px;
+    left: 625px;
+    position: absolute;
+    background-color: indigo;
+}
+#c2:hover{
+    background-color: rgb(255, 86, 24);
+}
+#c1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    top: 285px;
+    left: 650px;
+    position: absolute;
+    background-color: violet;
+}
+#c1:hover{
+    background-color: red;
+}
+
+#o1{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    left: 200px;
+    position: absolute;
+    animation: t5 10s infinite;
+    background-image: radial-gradient(blue,violet);
+}
+@keyframes t5{
+    from {top: 50px;}
+    to{top:460px;}
+}
+#o2{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    right: 200px;
+    bottom: 50px;
+    position: absolute;
+    animation: t6 10s infinite;
+    background-image: radial-gradient(violet,blue);
+}
+@keyframes t6{
+    from {bottom: 50px;}
+    to{bottom:460px}
+}
